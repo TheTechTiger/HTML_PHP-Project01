@@ -35,18 +35,6 @@ CREATE TABLE `login` (
   `Lastname` text NOT NULL,
   `Phone_Number` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `login`
---
-
-INSERT INTO `login` (`ID`, `Email`, `Password`, `Firstname`, `Lastname`, `Phone_Number`) VALUES
-(2, 'akhiwaghtech@gmail.com', '2468akhi', 'Akhilesh', 'Wagh', '7058041391'),
-(3, '<deleted>siddhant.verma370@gmail.com', 'Sidddhu37@', 'Siddhant', 'Verma', '9970949896'),
-(5, 'sushantwagh2007@gmail.com', '1234HAHA', 'Sushant', 'Wagh', '8237780162'),
-(6, 'siddhant.verma370@gmail.com', 'Siddhu37@', 'EPIC', 'SID', '9970949896'),
-(7, 'manngujarati@ashokaschools.org', '1234Mann', 'Mann', 'Gujarati', '9822534657');
-
 --
 -- Indexes for dumped tables
 --

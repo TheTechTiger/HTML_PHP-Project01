@@ -1,0 +1,16 @@
+$primary-foreground-color: #fff;
+$primary-background-color: #2B333F !default;
+$secondary-background-color: lighten($primary-background-color, 33%) !default;
+
+.video-js button.vjs-icon-audio-description {
+  color: $secondary-background-color;
+}
+
+.video-js button.vjs-da-enabled.vjs-icon-audio-description {
+  color: $primary-foreground-color;
+}
+
+.video-js button.vjs-icon-audio-description:hover {
+  color: $primary-foreground-color;
+  cursor: pointer;
+}

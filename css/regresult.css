@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(regbg.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: yellowgreen;
+    font-style: italic
+}
+
+ input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #fb9204;
+    color: #000;
+    
+}
+a
+{
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 20px;
+    color: darkorange;
+    text-align: center;
+}
+
+a:hover
+{
+    color: #fb2525;
+}

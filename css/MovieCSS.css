@@ -1,0 +1,48 @@
+body {
+    background-image: url("regbg.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+.usrdet {
+    top: 2%;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.molist{
+    color: white;
+    font-size:x-large;
+    padding: 10px;
+    line-height: 1cm;
+}
+
+.molist input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    background: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+.molist input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
